@@ -11,11 +11,25 @@ import "fmt"
 */
 func main() {
 
-	demo1()
+	demo1_iota()
 
+	demo2_iota()
 }
 
-func demo1() {
+func demo2_iota() {
+	const (
+		i = 1 << iota
+		j = 3 << iota
+		k
+		l
+	)
+	fmt.Println("i=", i)
+	fmt.Println("j=", j)
+	fmt.Println("k=", k)
+	fmt.Println("l=", l)
+}
+
+func demo1_iota() {
 	const (
 		a = iota
 		b

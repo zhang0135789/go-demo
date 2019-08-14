@@ -9,7 +9,7 @@ import "fmt"
 
 func main() {
 	/* nextNumber 为一个函数，函数 i 为 0 */
-	nextNumber := getSequence()
+	nextNumber := getSequence() //将getSequence()方法返回 的函数 赋值给nextNumber
 
 	/* 调用 nextNumber 函数，i 变量自增 1 并返回 */
 	fmt.Println(nextNumber())

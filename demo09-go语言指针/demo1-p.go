@@ -13,7 +13,7 @@ import "fmt"
 func main() {
 	demo1()
 
-	demo2()
+	//demo2()
 }
 
 /*

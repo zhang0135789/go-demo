@@ -24,6 +24,10 @@ type Books struct {
 	book_id int
 }
 
+func (books *Books) read() {
+	fmt.Println("read")
+}
+
 func main() {
 	demo1()
 
@@ -44,6 +48,8 @@ func demo2() {
 	Book1.author = "www.runoob.com"
 	Book1.subject = "go jiaoasd"
 	Book1.book_id = 110
+
+	Book1.read()
 
 	/* book 2 描述 */
 	Book2.title = "Python 教程"

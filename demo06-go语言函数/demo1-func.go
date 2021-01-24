@@ -10,12 +10,22 @@ import "fmt"
 */
 func main() {
 	/* 定义局部变量 */
-	demo1()
+	//demo1()
 
 	/*函数返回多个值*/
 	demo2()
 }
 
+/*
+ 	a=1
+	b=2
+
+=>
+  	a=2
+	b=1
+
+c
+*/
 func demo2() {
 	a, b := swap("google", "runoob")
 	fmt.Println(a, b)

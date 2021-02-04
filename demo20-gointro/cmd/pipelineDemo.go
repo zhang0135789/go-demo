@@ -1,7 +1,7 @@
 package main
 
 import (
-	"../pipeline"
+	"./pipeline"
 	"bufio"
 	"fmt"
 	"os"

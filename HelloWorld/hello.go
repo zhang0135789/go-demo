@@ -1,8 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	util "hello.go/hello"
+)
 
 func main() {
+
+	util.PrintHello()
+
 	fmt.Println("Hello , World!")
 
 	char1 := '赞'

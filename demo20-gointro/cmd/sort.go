@@ -1,9 +1,10 @@
 package main
 
 import (
-	"../pipeline"
+	""
 	"bufio"
 	"fmt"
+	"go-demo/demo20-gointro/cmd/pipeline"
 	"os"
 	"strconv"
 )
@@ -15,13 +16,13 @@ MergeN - 搭建归并节点组
 pipeline的搭建及运行  - CPU及县城数量的观测
 */
 func main() {
-	//demo1()
+	//demo5()
 
-	demo2()
+	demo6()
 
 }
 
-func demo2() {
+func demo5() {
 	infilename := "large.in"
 	//outfilename := "large.out"
 	p := createNetworkPipeline(infilename, 800000000, 8)
@@ -31,7 +32,7 @@ func demo2() {
 	printFile("large2.out")
 }
 
-func demo1() {
+func demo6() {
 	infilename := "large.in"
 	outfilename := "large.out"
 	p := createPipeline(infilename, 800000000, 8)
